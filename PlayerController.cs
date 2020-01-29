@@ -44,10 +44,6 @@ public class PlayerController : MonoBehaviour
         {
             Gameover(false);
         }
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

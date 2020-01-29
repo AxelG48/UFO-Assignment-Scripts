@@ -16,5 +16,9 @@ public class CameraController : MonoBehaviour
     void LateUpdate()
     {
         transform.position = player.transform.position + offset;
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 }
